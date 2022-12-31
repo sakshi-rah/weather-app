@@ -26,12 +26,34 @@
     width: 80%;
     border: none !important;
     font-size: 20px;
+    background-color: transparent;
 }
 
 .input-city:focus {
     outline: none;
 }
 
-.main-container{
-  border: 1px solid gray;
+.main-container {
+    text-align: center;
+    margin-top: 50px;
+}
+.main-container .container-item{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+   
+}
+.container-style{
+    width: 250px;
+    margin: 0%;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img-item{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
 }
