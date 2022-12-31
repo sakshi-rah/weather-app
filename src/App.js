@@ -51,23 +51,23 @@ function App() {
         <h1 className='app-title'>Weather App</h1>
       </div>
       <div className='search-container'>
-        <img className='container-icon' src={ImgCityIcon} />
+        <img className='container-icon' src={ImgCityIcon} alt='' />
         <input className='input-city' type="text" placeholder='Enter city name'
           value={city} onChange={(e) => setCity(e.target.value)} />
       </div>
 
       <div className='main-container'>
         <div className='container-item'>
-          <div className='container-style'> <img src={ImgCity} className='img-item'/> <h3>City : {city}</h3> </div>
-          <div className='container-style'> <img src={ImgTemp} className='img-item'/> <h3>Temperature :  {temp}</h3></div>
+          <div className='container-style'> <img src={ImgCity} className='img-item' alt=''/> <h3>City : {city}</h3> </div>
+          <div className='container-style'> <img src={ImgTemp} className='img-item'alt=''/> <h3>Temperature :  {temp}</h3></div>
         </div>
 
         <div className='container-item'>
-          <div className='container-style'> <img src={ImgHumidity} className='img-item'/> <h3>Humidity : {humidity}</h3></div>
-          <div className='container-style'> <img src={ImgDesc} className='img-item'/> <h3>Description : {description}</h3></div>
+          <div className='container-style'> <img src={ImgHumidity} className='img-item'alt=''/> <h3>Humidity : {humidity}</h3></div>
+          <div className='container-style'> <img src={ImgDesc} className='img-item'alt=''/> <h3>Description : {description}</h3></div>
         </div>
         <div className='container-item'>
-          <div className='container-style'> <img src={ImgCountry} className='img-item'/> <h3>Country :  {country}</h3></div>
+          <div className='container-style'> <img src={ImgCountry} className='img-item'alt=''/> <h3>Country :  {country}</h3></div>
         </div>
 
       </div>
